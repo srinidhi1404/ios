@@ -1,19 +1,13 @@
 import UIKit
 
-var greeting = "Hello, playground"
 
-var name = "ios"
-print(name)
+var n:[Int] = [2,3,4]
+print(n)
 
-var num = 10
-switch num{
-case 10,15:
-    print("num is 10 or 15")
-    fallthrough
-case 5:
-    print("num is 5")
-default:
-    print("none")
-    
-    
-}
+var e = [Int]()
+print(e)
+
+var pl = ["Swift", "Java", "Python"]
+print(pl[0])
+
+
